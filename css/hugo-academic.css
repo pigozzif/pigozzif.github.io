@@ -413,6 +413,11 @@ h3.article-title a {
     line-height: 30px; /* Match share bar line height. */
 }
 
+.pub .pub-awards {
+    font-style: italic;
+    line-height: 30px; /* Match share bar line height. */
+}
+
 .pub .pub-row-heading {
     font-weight: bold;
 }
@@ -430,6 +435,13 @@ h3.article-title a {
     font-style: normal;
     font-size: 1.13em;
     color: #3170A5;
+}
+
+.pub-list-item .pub-awards {
+    line-height: normal;
+    font-style: normal;
+    font-size: 1.13em;
+    color: #FF0000;
 }
 
 .pub-list-item .pub-publication {
